@@ -5,15 +5,15 @@
 
 print("Wir entscheiden nun, ob eine eingegebene Zahl positiv oder negativ ist")
 print("")
-zahl=input("Welche Zahl soll überprüft werden? ")
-x=float(zahl)
+zahl = input("Welche Zahl soll überprüft werden? ")
+x = float(zahl)
 
 print(" ")
 
 # Einsatz der Funktion mit if, elif und else
-if x<0:
+if x < 0:
     print("Die Zahl ist negativ")
-elif x==0:
+elif x == 0:
     print("Die Zahl ist Null")
 else:
     print("Die Zahl ist positiv")
